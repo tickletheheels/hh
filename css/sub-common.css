@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* font-size : 10px; */
+html { font-size: 62.5%;} /* (10 / 16) * 100 */
+
+/* 여백초기화 */
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+/* 테이블 중첩여부지정, 가로 크기 100% */
+table {width: 100%; border-collapse: collapse;}
+
+/* 목록 요소에 숫자, 불릿 기호 없애기 */
+ol, ul {list-style: none;}
+
+/* 링크에 밑줄 없애기, 글자색 기본색 지정 */
+a {text-decoration: none; color: #000;}
+
+/* 글자 기울임 설정 */
+address {font-style: normal;}
+
+/* 바같테두리 없애기 */
+fieldset, input, textarea, select {vertical-align: middle; outline: none; border: 0;}
+/* select 태그 화살표 없애기 appearance:none; */
+/* vertical-align: middle 폼 태그에만 적용 가능함 */
+
+legend {display: none;}
+
+img { max-width: 100%;}
+
+
+
+
+
+#header .gnb {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#header .gnb li {
+  padding-left: 2%;
+}
+
+
+
+
+
+
+
+
+
+#footer {
+  padding: 0;
+  position: relative;
+  background: url(../images/main/footerback.svg) no-repeat center center;
+}
+
+#footer .inner_100 {
+  height: 100vh;
+}
+
+
+
+#footer .follow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding-top: 5%;
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+
+#footer .follow h2 {
+  font-weight: 400;
+}
+
+#footer .follow .instabox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+}
+
+#footer .follow .instabox p {
+  border-bottom: 1px solid #fff;
+}
+

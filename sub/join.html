@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>회원가입</title>
+
+
+  <!-- 오픈그래프 설정-->
+  <meta property="og:title" content="hippidy hoppidy"><!-- 타이틀 -->
+  <meta property="og:url" content="https://tickletheheels.github.io/hh/"><!-- 도메인 -->
+  <meta property="og:description" content="hippidy hoppidy, hiphop! hiphop!"><!-- 간략한 설명, 모토나 슬로건,  -->
+  <meta property="og:image" content="images/common/open.png"><!-- 이미지 비율이 있음 (크기는 없음) 2:1 비율 -->
+
+
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="images/common/hh.png"><!-- 크기 : 16*16 -->
+
+  <!-- font -->
+  <link rel="stylesheet" href="../css/font.css"> <!-- 영문폰트 -->
+
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/swiper-bundle.min.css"> <!-- cdn방식으로 적용 -->
+  <link rel="stylesheet" href="../css/join.css">
+
+
+  <!-- js -->
+  <script src="../js/jquery-3.6.0.min.js"></script>
+  <script src="../js/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="../js/common.js"></script>
+  <script src="../js/join.js"></script>
+
+</head>
+
+<body>
+  <div id="wrap">
+    <header id="header">
+      <div class="inner">
+        <h1 class="animate__animated animate__shakeX animate__infinite">
+          <a href="../index.html">
+            <img src="../images/common/logo-white.png" alt="히피디하피디 로고">
+          </a>
+        </h1>
+
+        <img src="../images/main/header-back-pink.svg" alt="배경분홍"
+          class="pink animate__animated animate__headShake animate__infinite">
+        <img src="../images/main/header-back-green.png" alt="배경초록"
+          class="green animate__animated animate__headShake animate__infinite">
+
+
+        <nav>
+          <ul class="gnb">
+            <li>
+              <a href="../sub/join.html">
+                <img src="../images/common/my.png" alt="마이페이지">
+              </a>
+              <div class="hover">내정보</div>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="../images/common/cart.svg" alt="장바구니">
+              </a>
+              <div class="hover">장바구니</div>
+            </li>
+
+            <li class="searchicon">
+              <a href="#">
+                <img src="../images/common/search.svg" alt="검색">
+              </a>
+              <div class="hover">검색</div>
+            </li>
+
+            <li class="ham">
+              <a href="#">
+                <img src="../images/common/ham.svg" alt="메뉴">
+              </a>
+              <div class="hover">메뉴</div>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="search">
+          <div class="box">
+            <form>
+              <fieldset>
+                <legend>검색영역</legend>
+                <div class="inner">
+                  <input type="text" placeholder="휴먼 주목! 힙합의 알러지 없는 침구 검색!">
+                  <input type="submit" value="검색"> <!-- 검색 내용 적는 부분, 검색 버튼 -->
+                </div><!-- inner -->
+              </fieldset>
+            </form>
+          </div>
+
+          <div class="text">
+            <a href="#">#중형견</a>
+            <a href="#">#우비</a>
+            <a href="#">#이동가방</a>
+            <a href="#">#강아지샴푸</a>
+          </div>
+
+          <div class="search_close">
+            <img src="../images/common/gnb_close.png" alt="닫기">
+          </div>
+        </div><!-- search -->
+
+        <div class="mainmenu_wrap">
+          <div class="mainmenu">
+            <ul>
+              <li><a href="#">outdoor
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="#">indoor
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="#">home
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="#">human
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="#">brand
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="#">news
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="#">story
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+            </ul>
+
+            <div class="menuclose">
+              <img src="../images/common/gnb_close.png" alt="닫기">
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="submenu_wrap">
+          <div class="submenu">
+            <ul>
+              <li><a href="../sub/outdoor.html">의류
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="../sub/outdoor.html">목줄
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="../sub/outdoor.html">하네스
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="../sub/outdoor.html">리드줄
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="../sub/outdoor.html">악세사리
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+
+              <li><a href="../sub/outdoor .html">이동가방
+                  <img src="../images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                </a>
+              </li>
+            </ul>
+
+            <div class="submenuclose">
+              <img src="../images/common/gnb_close.png" alt="닫기">
+            </div>
+          </div>
+        </div>
+
+      </div><!-- inner -->
+    </header>
+
+
+
+
+    <main id="main">
+      <div class="inner_100">
+        <img src="../images/sub/join/redflower.svg" alt="빨간꽃" class="red">
+        <img src="../images/sub/join/bone.svg" alt="뼈다귀" class="bone">
+        <img src="../images/sub/join/whiteflower.svg" alt="하얀꽃" class="white">
+        <img src="../images/sub/join/carrot.svg" alt="당근" class="carrot">
+      </div>
+
+      <div class="join">
+        <h2> <img src="../images/sub/join/login.png" alt="로그인"> </h2>
+        <p class="title"> 방문해주셔서 감사합니다! </p>
+
+        <ul class="member">
+          <li>회원</li>
+          <li>비회원</li>
+        </ul>
+
+
+        <form>
+          <fieldset>
+            <legend> input 관련 요소 </legend>
+            <p> <input type="text" size="20" maxlength="10" placeholder="아이디"> </p>
+            <p> <input type="password" placeholder="비밀번호"></p>
+            <div class="right">
+              <input type="checkbox" name="id" id="아이디"> 아이디 저장
+            </div>
+          </fieldset>
+        </form>
+
+        <p class="login"> 로그인하기 </p>
+
+        <ul class="login_list">
+          <li>
+            <img src="../images/sub/join/naver.png" alt="네이버아이콘">
+            네이버 아이디로 로그인하기
+          </li>
+
+          <li>
+            <img src="../images/sub/join/kakao.png" alt="카카오아이콘">
+            카카오 아이디로 로그인하기
+          </li>
+        </ul>
+      </div>
+    </main>
+
+
+
+
+
+    <footer id="footer">
+      <div class="inner_100">
+        <ul class="menu">
+          <li><a href="#">outdoor</a></li>
+          <li><a href="#">indoor</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">human</a></li>
+          <li><a href="#">brand</a></li>
+          <li><a href="#">story</a></li>
+        </ul>
+
+        <div class="footer_logo">
+          <img src="../images/main/footerlogo.svg" alt="히피디하피디">
+        </div>
+
+        <div class="footer_insta">
+          <p>follow us</p>
+          <div class="insta">
+            <img src="../images/common/footer-insta.png" alt="인스타아이콘">
+            <p>hippidy_hoppidy</p>
+          </div>
+        </div>
+      </div><!-- inner_100 -->
+    </footer>
+
+  </div>
+
+</body>
+
+</html>

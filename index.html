@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>hippidy hoppidy</title>
+
+
+  <!-- 오픈그래프 설정-->
+  <meta property="og:title" content="hippidy hoppidy"><!-- 타이틀 -->
+  <meta property="og:url" content="https://tickletheheels.github.io/hh/"><!-- 도메인 -->
+  <meta property="og:description" content="hippidy hoppidy, hiphop! hiphop!"><!-- 간략한 설명, 모토나 슬로건,  -->
+  <meta property="og:image" content="images/common/open.png"><!-- 이미지 비율이 있음 (크기는 없음) 2:1 비율 -->
+
+
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="images/common/hh.png"><!-- 크기 : 16*16 -->
+
+  <!-- font -->
+  <link rel="stylesheet" href="css/font.css"> <!-- 영문폰트 -->
+
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css"> <!-- cdn방식으로 적용 -->
+  <link rel="stylesheet" href="css/main.css">
+
+
+  <!-- js -->
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/main.js"></script>
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="fixed">
+      <header id="header">
+        <div class="inner">
+          <h1 class="animate__animated animate__shakeX animate__infinite">
+            <a href="#">
+              <img src="images/common/logo-white.png" alt="히피디하피디 로고">
+            </a>
+          </h1>
+
+          <img src="images/main/header-back-pink.svg" alt="배경분홍"
+            class="pink animate__animated animate__headShake animate__infinite">
+          <img src="images/main/header-back-green.png" alt="배경초록"
+            class="green animate__animated animate__headShake animate__infinite">
+
+
+          <nav>
+            <ul class="gnb">
+              <li>
+                <a href="sub/join.html">
+                  <img src="images/common/my.png" alt="마이페이지">
+                </a>
+                <div class="hover">내정보</div>
+              </li>
+
+              <li>
+                <a href="#">
+                  <img src="images/common/cart.svg" alt="장바구니">
+                </a>
+                <div class="hover">장바구니</div>
+              </li>
+
+              <li class="searchicon">
+                <a href="#">
+                  <img src="images/common/search.svg" alt="검색">
+                </a>
+                <div class="hover">검색</div>
+              </li>
+
+              <li class="ham">
+                <a href="#">
+                  <img src="images/common/ham.svg" alt="메뉴">
+                </a>
+                <div class="hover">메뉴</div>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="search">
+            <div class="box">
+              <form>
+                <fieldset>
+                  <legend>검색영역</legend>
+                  <div class="inner">
+                    <input type="text" placeholder="휴먼 주목! 힙합의 알러지 없는 침구 검색!">
+                    <input type="submit" value="검색"> <!-- 검색 내용 적는 부분, 검색 버튼 -->
+                  </div><!-- inner -->
+                </fieldset>
+              </form>
+            </div>
+
+            <div class="text">
+              <a href="#">#중형견</a>
+              <a href="#">#우비</a>
+              <a href="#">#이동가방</a>
+              <a href="#">#강아지샴푸</a>
+            </div>
+
+            <div class="search_close">
+              <img src="images/common/gnb_close.png" alt="닫기">
+            </div>
+          </div><!-- search -->
+
+          <div class="mainmenu_wrap">
+            <div class="mainmenu">
+              <ul>
+                <li><a href="#">outdoor
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="#">indoor
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="#">home
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="#">human
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="#">brand
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="#">news
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="#">story
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+              </ul>
+
+              <div class="menuclose">
+                <img src="images/common/gnb_close.png" alt="닫기">
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="submenu_wrap">
+            <div class="submenu">
+              <ul>
+                <li><a href="sub/outdoor.html">의류
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="sub/outdoor.html">목줄
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="sub/outdoor.html">하네스
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="sub/outdoor.html">리드줄
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="sub/outdoor.html">악세사리
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+
+                <li><a href="sub/outdoor .html">이동가방
+                    <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+                  </a>
+                </li>
+              </ul>
+
+              <div class="submenuclose">
+                <img src="images/common/gnb_close.png" alt="닫기">
+              </div>
+            </div>
+          </div>
+
+
+          <ul class="menu">
+            <li class="m">
+              <a href="#hello">
+                hello!
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+            <li class="m">
+              <a href="#new">
+                new
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+            <li class="m">
+              <a href="#outdoor">
+                outdoor
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+            <li class="m">
+              <a href="#indoor">
+                indoor
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+            <li class="m">
+              <a href="#home">
+                home
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+            <li class="m">
+              <a href="#human">
+                human
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+            <li class="m">
+              <a href="#story">
+                story
+                <img src="images/common/gnb_hover.svg" alt="마우스호버발바닥모양">
+              </a>
+            </li>
+          </ul><!-- menu -->
+        </div><!-- inner -->
+      </header>
+    </div>
+
+    <main class="container">
+      <section id="hello">
+        <div class="inner_100">
+          <h2>hello</h2>
+          <img src="images/main/hello.svg" alt="인트로" class="intro">
+          <img src="images/main/hellodog.svg" alt="introdog"
+            class="introdog animate__animated animate__infinite animate__wobble ">
+        </div><!-- inner -->
+      </section><!-- hello -->
+
+      <section id="new">
+        <div class="inner_100">
+          <img src="images/main/new_flower.svg" alt="배경꽃"
+            class="flower animate__animated animate__infinite animate__tada">
+          <img src="images/main/new_bone.svg" alt="배경뼈다귀"
+            class="bone animate__animated animate__infinite animate__bounce">
+          <img src="images/main/new_ell.svg" alt="배경동그라미" class="ell animate__animated animate__infinite animate__tada">
+          <img src="images/main/new_party.svg" alt="배경파티"
+            class="party animate__animated animate__infinite animate__bounce">
+          <!-- <img src="images/main/new-back-green.png" alt="배경초록" class="green">
+          <img src="images/main/new-back-line.png" alt="라인" class="line"> -->
+
+
+          <!--  -->
+
+          <h2 class="merlot" data-aos="fade-down-right" data-aos-duration="1000"> Merlot </h2>
+          <div class="coat" data-aos="fade-left" data-aos-duration="1000"> Ain Coat</div>
+
+          <div class="arrow">
+            <img src="images/common/arrow.png" alt="화살표">
+          </div>
+
+          <div class="btnbox">
+            <div class="btn btn-primary btn-jittery">
+              <a href="#">
+                Click!
+              </a>
+            </div>
+          </div>
+
+
+
+          <ul class="new_list">
+            <li>
+              <a href="#">
+                <img src="images/main/new-01.png" alt="상품1" class="product1">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="images/main/new-02.png" alt="상품2" class="product2">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="images/main/new-03.png" alt="상품3" class="product3">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="images/main/new-04.png" alt="상품4" class="product4">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="images/main/new-05.png" alt="상품5" class="product5">
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <img src="images/main/new-06.png" alt="상품6" class="product6">
+              </a>
+            </li>
+          </ul>
+
+        </div><!-- inner_100 -->
+      </section><!-- new -->
+
+      <section id="outdoor">
+        <div class="inner_100">
+
+
+          <img src="images/main/outc-tl1.png" alt="배경구름" class="tl1 animate__animated animate__infinite animate__pulse">
+          <img src="images/main/outc-tl2.png" alt="배경구름" class="tl2 animate__animated animate__infinite animate__pulse">
+          <img src="images/main/outc-tr1.png" alt="배경구름" class="tr1 animate__animated animate__infinite animate__pulse">
+          <img src="images/main/outc-tr2.png" alt="배경구름" class="tr2 animate__animated animate__infinite animate__pulse">
+
+          <div class="left">
+            <img src="images/main/outhum.png" alt="사람일러스트" class="outhum">
+            <img src="images/main/outdoor-bag.png" alt="가방" class="outbag">
+            <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+            <ul class="product_list list01">
+              <li>01.</li>
+              <li><a href="#">힙합 이동가방</a></li>
+            </ul>
+
+            <div class="btnbox">
+              <div class="btn btn-primary btn-jittery">
+                <a href="#">
+                  Click!
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <img src="images/main/outdoor-dog.png" alt="강아지일러스트" class="outdog">
+
+            <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+
+            <ul class="product_list list02">
+              <li>02.</li>
+              <li><a href="#">힙합 멍배낭</a></li>
+            </ul>
+
+            <div class="btnbox">
+              <div class="btn btn-primary btn-jittery">
+                <a href="#">
+                  Click!
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+        </div><!-- inner_100 -->
+      </section><!-- outdoor -->
+
+      <section id="indoor">
+        <div class="inner">
+          <h2>indoor</h2>
+
+          <img src="images/main/indoor-topleft.svg" alt="비눗방울1"
+            class="bubble1 animate__animated animate__infinite animate__pulse">
+          <img src="images/main/indoor-topright.svg" alt="비눗방울2"
+            class="bubble2 animate__animated animate__infinite animate__pulse">
+          <img src="images/main/indoor-botleft.svg" alt="비눗방울3"
+            class="bubble3 animate__animated animate__infinite animate__pulse">
+          <img src="images/main/indoor-botright.svg" alt="비눗방울4"
+            class="bubble4 animate__animated animate__infinite animate__pulse">
+
+          <img src="images/main/indoor.png" alt="배경사진" class="indoorback">
+
+          <img src="images/main/indoor-dog.svg" alt="강아지"
+            class="dog animate__animated animate__infinite animate__shakeX">
+
+          <ul>
+            <li class="product01">
+              <img src="images/main/shampoo.png" alt="샴푸" class="shampoo">
+
+              <div class="top">
+                <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+
+                <ul class="product_list">
+                  <li>01.</li>
+                  <li><a href="#">실키 네이쳐 멍샴푸</a></li>
+
+
+                  <div class="btnbox">
+                    <div class="btn btn-primary btn-jittery">
+                      <a href="#">
+                        Click!
+                      </a>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class="product02">
+              <img src="images/main/towel.png" alt="수건" class="towel">
+
+              <div class="bottom">
+                <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+
+                <ul class="product_list list02">
+                  <li>02.</li>
+                  <li><a href="#">멍펀지 타월</a></li>
+                  <div class="btnbox">
+                    <div class="btn btn-primary btn-jittery">
+                      <a href="#">
+                        Click!
+                      </a>
+                    </div>
+                  </div>
+                </ul>
+
+
+              </div>
+            </li>
+          </ul>
+
+
+
+
+
+
+        </div><!-- inner -->
+      </section><!-- indoor -->
+
+
+
+
+      <section id="home">
+        <div class="inner_100">
+          <h2>home</h2>
+
+          <img src="images/main/home-carrot.svg" alt="당근" class="carrot">
+          <img src="images/main/home-flower.svg" alt="꽃" class="flower">
+
+          <ul class="home_list">
+            <li class="p1">
+              <a href="#">
+                <img src="images/main/home-01.png" alt="상품1" class="product1">
+              </a>
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>01.</li>
+                <li><a href="#">힙합 <br class="mobile"> 휴먼 알러지케어 침구</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p2">
+              <a href="#">
+                <img src="images/main/home-02.png" alt="상품2" class="product2">
+              </a>
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>02.</li>
+                <li><a href="#">힙합 mug</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p3">
+              <a href="#">
+                <img src="images/main/home-03.png" alt="상품3" class="product3">
+              </a>
+
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>03.</li>
+                <li><a href="#">힙합 멍보울</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p4">
+              <a href="#">
+                <img src="images/main/home-04.png" alt="상품4" class="product4">
+              </a>
+
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>04.</li>
+                <li><a href="#">힙합<br class="mobile"> 알러지케어 멍침대</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </section><!-- home -->
+
+
+
+
+      <section id="human">
+        <div class="inner">
+
+          <h2>human</h2>
+
+          <img src="images/main/humanill.svg" alt="휴먼일러스트" class="illust">
+
+          <ul class="product_list">
+            <li class="p1">
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>01.</li>
+                <li><a href="#">휴먼 캐시미어 가디건</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p2">
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>02.</li>
+                <li><a href="#">네이비 이동가방</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p3">
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>03.</li>
+                <li><a href="#">휴먼 산책가방</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p4">
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>04.</li>
+                <li><a href="#">휴먼 네온 티셔츠</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+
+            <li class="p5">
+
+              <img src="images/common/arrow.png" alt="화살표" class="arrow">
+
+              <ul class="product_list">
+                <li>05.</li>
+                <li><a href="#">멍 네온 티셔츠</a></li>
+                <div class="btnbox">
+                  <div class="btn btn-primary btn-jittery">
+                    <a href="#">
+                      Click!
+                    </a>
+                  </div>
+                </div>
+              </ul>
+            </li>
+          </ul>
+
+
+        </div>
+      </section>
+
+      <section id="story">
+        <div class="inner_100">
+          <div class="storytxt">
+            <h2>
+              <img src="images/common/logo-white.png" alt="hippidy hoppidy">
+            </h2>
+
+            <p class="title">
+              네 발 달린 친구들의 삶 관찰하기
+            </p>
+
+            <p>
+              홀딱 벗은 맨몸으로 냄새나는 곳에 뒹굴며 마음껏 먹고싶은대로 먹기!
+            </p>
+
+            <p>
+              모든 강아지들의 소망이지만, 한 집에서 사는 식구들과 타협하며 살아가야 하잖아요. <br>
+              힙합은 어떻게하면 네 발 친구들과 두 발 친구들이 서로의 니즈를 충족하며 살아갈 수 있을까를 항상 고민했습니다.
+            </p>
+
+            <p>
+              예쁘고 귀엽고 편안한 모든 것!
+              히피디하피디는 행복한 반려생활을 응원합니다.
+            </p>
+          </div>
+
+          <img src="images/main/story-back.svg" alt="브랜드꽃" class="flower">
+          <img src="images/main/story-back-line.png" alt="배경라인" class="line">
+
+          <div class="cover">
+            <p class="first-parallel">
+              <img src="images/main/story-slogan.png" alt="슬로건">
+              <img src="images/main/story-slogan.png" alt="슬로건">
+              <img src="images/main/story-slogan.png" alt="슬로건">
+            </p>
+
+          </div>
+
+          <div class="right">
+            <img src="images/main/story-right.svg" alt="슬로건4">
+          </div>
+        </div>
+      </section><!-- story -->
+    </main><!-- container -->
+
+    <footer id="footer">
+      <div class="inner_100">
+        <ul class="menu">
+          <li><a href="#">outdoor</a></li>
+          <li><a href="#">indoor</a></li>
+          <li><a href="#">home</a></li>
+          <li><a href="#">human</a></li>
+          <li><a href="#">brand</a></li>
+          <li><a href="#">story</a></li>
+        </ul>
+
+        <div class="footer_logo">
+          <img src="images/main/footerlogo.svg" alt="히피디하피디">
+        </div>
+
+        <div class="footer_insta">
+          <div>follow us</div>
+          <div class="insta">
+            <img src="images/common/footer-insta.png" alt="인스타아이콘">
+            <div>hippidy_hoppidy</div>
+          </div>
+        </div>
+      </div><!-- inner_100 -->
+    </footer>
+
+    <div class="qna-btn">
+      <img src="images/common/qna.png" alt="문의">
+    </div>
+
+    <div class="qna">
+      <div class="qna-txt">
+        <div class="qna-symbol">
+          <img src="images/common/qna-icon.png" alt="심볼">
+        </div>
+
+        <h2>
+          hippidy hoppidy <br>
+          히피디 하피디 공식 스토어
+        </h2>
+
+        <div>
+          방문해주셔서 감사합니다!
+        </div>
+
+        <div class="start"> 상담 시작하기 </div>
+
+        <dl>
+          <dt> 상담 운영시간 : 평일 11:00 - 17:00 </dt>
+          <dd> &middot; 주말, 공휴일, 13:00 - 15:00 휴게시간 제외 </dd>
+          <dd> &middot; 전화 상담은 운영하지 않습니다. </dd>
+        </dl>
+
+        <div class="qna-close">
+          <img src="images/common/qna-close.png" alt="닫기">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="gotop">
+      <a href="#"><img src="images/common/gotop.png" alt="위로가기"></a>
+
+    </div>
+
+  </div><!-- wrap -->
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
